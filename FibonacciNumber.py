@@ -1,4 +1,10 @@
 def calc_fib(n):
+    """""
+    A function that computing a Fibonacci Series in a way that successive executing a sum.
+
+    Params
+    n: Number that runs Fibonacci Serie. Type: Integer.
+    """
     if (n <= 1):
         return n
     
@@ -10,5 +16,5 @@ def calc_fib(n):
         return current
 
 
-n = int(input())
+n = int(input()) #Number that runs Fibonacci Serie
 print(calc_fib(n))
