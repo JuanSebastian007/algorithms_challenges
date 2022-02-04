@@ -16,6 +16,8 @@ def compute_min_refills(distance, tank, stops):
         curr_refill += 1
     return num_refill
 
+    
+
 if __name__ == '__main__':
     d = int(input())
     m = int(input())
